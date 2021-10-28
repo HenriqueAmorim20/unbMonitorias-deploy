@@ -27,7 +27,7 @@ export default function Monitoria(props){
             .insert([
                 { idUsuario: props.usuario.id, idMonitoria: props.monitoria.id },
             ])
-            // setTimeout(()=>window.location.reload(),800)
+            setTimeout(()=>window.location.reload(),800)
         } catch (error) {
             console.log(error)
         }
@@ -39,7 +39,7 @@ export default function Monitoria(props){
             .from('seguir')
             .delete()
             .match({'idUsuario': usuario.id, 'idMonitoria': props.monitoria.id})
-            // setTimeout(()=>window.location.reload(),800)
+            setTimeout(()=>window.location.reload(),800)
         } catch (error) {
             console.log(error)
         }

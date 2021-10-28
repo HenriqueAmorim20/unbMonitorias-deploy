@@ -38,7 +38,7 @@ export default function AdicionarMonitoria(){
                             <input type="text" placeholder="Código da disciplina" className={styles.field} onChange={event => setCodigo(event.target.value)}/>
                             <input type="text" placeholder="Nome da disciplina" className={styles.field} onChange={event => setNome(event.target.value)}/>
                             <input type="text" placeholder="Professor" className={styles.field} onChange={event => setProfessor(event.target.value)}/>
-                            <input type="text" placeholder="Descrição" className={styles.field} onChange={event => setDescricao(event.target.value)}/>
+                            <textarea type="text" rows="10" placeholder="Descrição" className={styles.field} onChange={event => setDescricao(event.target.value)}/>
                             <input type="number" placeholder="Número de vagas" className={styles.field} onChange={event => setVagas(event.target.value)}/>
                         </div>
                         <button className={styles.btnCriar} onClick={criarMonitoria}>Criar</button>
