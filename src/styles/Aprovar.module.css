@@ -1,0 +1,134 @@
+.main {
+    min-height: 87vh;
+    padding: 20px;
+    position: relative;
+    background-color: transparent;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    background-color: #ebebeb;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; 
+    justify-content: center; */
+    padding: 5px 5px 10px 20px;
+    margin: 20px;
+    min-width: fit-content;
+    max-width: 400px;
+    min-height: fit-content;
+    max-height: 300px;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.btnSeguir {
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(57, 122, 219);
+    color: white;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+    transition: 0.7s all ease;
+    -webkit-transition: 0.7s all ease;
+    -moz-transition: 0.7s all ease;
+    -ms-transition: 0.7s all ease;
+    -o-transition: 0.7s all ease;
+}
+
+.btnSeguir:hover {
+    background-color: rgba(57, 122, 219, 0.5);
+    transition: 0.7s all ease;
+    -webkit-transition: 0.7s all ease;
+    -moz-transition: 0.7s all ease;
+    -ms-transition: 0.7s all ease;
+    -o-transition: 0.7s all ease;
+}
+
+.btnNaoSeguir {
+    margin-left: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(235, 67, 67);
+    color: white;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+    transition: 0.7s all ease;
+    -webkit-transition: 0.7s all ease;
+    -moz-transition: 0.7s all ease;
+    -ms-transition: 0.7s all ease;
+    -o-transition: 0.7s all ease;
+}
+
+.btnNaoSeguir:hover {
+    background-color: rgba(235, 67, 67, 0.603);
+    transition: 0.7s all ease;
+    -webkit-transition: 0.7s all ease;
+    -moz-transition: 0.7s all ease;
+    -ms-transition: 0.7s all ease;
+    -o-transition: 0.7s all ease;
+}
+
+
+.icon {
+    margin-right: 7px;
+}
+
+.nome {
+    margin: 5px;
+    margin-left: 10px;
+    font-weight: 200;
+}
+
+.btnCadastrar {
+    width: 100%;
+    max-width: 450px;
+    min-width: 100px;
+    bottom: 0px;
+    height: 35px;
+    cursor: pointer;
+    /* padding: 8px 100px 8px 100px; */
+    background-color: black;
+    box-shadow: 3px 3px 3px #b6b6b648;
+    color: white;
+    border: none;
+    transition: 0.7s all ease;
+    -webkit-transition: 0.7s all ease;
+    -moz-transition: 0.7s all ease;
+    -ms-transition: 0.7s all ease;
+    -o-transition: 0.7s all ease;
+}
+
+.btnCadastrar:hover {
+    background-color: gray;
+    transition: 0.7s all ease;
+    -webkit-transition: 0.7s all ease;
+    -moz-transition: 0.7s all ease;
+    -ms-transition: 0.7s all ease;
+    -o-transition: 0.7s all ease;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}

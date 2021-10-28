@@ -1,0 +1,51 @@
+.main {
+    min-height: 87vh;
+    padding: 20px;
+    position: relative;
+    background-color: transparent;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 7px;
+}
+
+.btnAdicionar {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #000;
+    color: white;
+    transition: 0.7s all ease;
+    -webkit-transition: 0.7s all ease;
+    -moz-transition: 0.7s all ease;
+    -ms-transition: 0.7s all ease;
+    -o-transition: 0.7s all ease;
+}
+
+.btnAdicionar:hover {
+    background-color: #000000c2;
+    transition: 0.7s all ease;
+    -webkit-transition: 0.7s all ease;
+    -moz-transition: 0.7s all ease;
+    -ms-transition: 0.7s all ease;
+    -o-transition: 0.7s all ease;
+}
