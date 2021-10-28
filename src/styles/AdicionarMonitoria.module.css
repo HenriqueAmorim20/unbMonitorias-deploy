@@ -9,21 +9,21 @@
 }
 
 .card {
-    background-color: #7f9e97;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    max-width: 800px;
     min-width: 300px;
     min-height: 400px;
+    background-color: #ffffff;
     color: #000;
     box-shadow: 3px 3px 3px rgba(73, 73, 73, 0.466);
     padding: 2% 5%;
 }
 
 .title {
-    background-color: rgba(253, 253, 253, 0.849);
-    color: #000;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: #fff;
     padding: 5px 20px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .link {
-    color: white;
+    color: #7f9e97;
     text-decoration: underline;
     margin-left: 8px;
     cursor: pointer;
@@ -49,11 +49,9 @@
 .field {
     margin: 5px;
     background: rgba(255, 255, 255, 0.801);
-    border: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.411);
-    border-right: 2px solid rgba(0, 0, 0, 0.411);
-    padding: 5px 10px;
-    width: 40%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 90%;
     min-width: 200px;
 }
 
@@ -101,5 +99,5 @@
 }
 
 .spacer {
-    flex: 1 1 a
+    flex: 1 1 auto;
 }
